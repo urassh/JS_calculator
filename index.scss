@@ -1,0 +1,66 @@
+* {
+    text-align: center;
+    background-color: #E0F9FF;
+    button {
+        background: none;
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .inputNumbers {
+        #input1 {
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-right: 20px;
+            padding: 10px 10px;
+            height: 50px;
+            width: 300px;
+        }
+        #input2 {
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-right: 20px;
+            padding: 10px 10px;
+            height: 50px;
+            width: 300px;
+        }
+    }
+    .select {
+        #selectBtn {
+            background: #127FFF;
+            color: #ffffff;
+            border-radius: 5px;
+            border: none;
+            margin-top: 50px;
+            margin-right: 20px;
+            padding: 10px 10px;
+            height: 50px;
+            width: 200px;
+            box-shadow: 0px 4px 0px #000000;
+            &:active{
+                position: relative;
+                top: 4px;
+                box-shadow: none;
+            }
+        }
+    }
+    #ResetBtn{
+        background: #127FFF;
+        color: #ffffff;
+        border-radius: 5px;
+        border: none;
+        margin-top: 50px;
+        margin-right: 20px;
+        padding: 10px 10px;
+        height: 50px;
+        width: 300px;
+        box-shadow: 0px 4px 0px #000000;
+        &:active{
+            position: relative;
+            top: 4px;
+            box-shadow: none;
+        }
+    }
+}
