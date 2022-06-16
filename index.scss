@@ -1,6 +1,11 @@
 * {
     text-align: center;
     background-color: #E0F9FF;
+    .result {
+        h2 {
+            color: #000000;
+        }
+    }
     button {
         background: none;
         border: none;
